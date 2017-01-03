@@ -1,0 +1,122 @@
+body{
+  background-color: rgb(152, 152, 152);
+  height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background: #2D2E2F;
+    color: white;
+    font-size: 5vh;
+}
+p{
+    cursor: pointer;
+    padding: 12px 0px;
+    font-family: 'Raleway', sans-serif;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+
+
+}
+p:hover{
+  -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+       transform: scale(1.3);
+}
+.name {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.business {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+#about{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  background-color: rgb(210, 210, 209);
+  padding: 5px 5px;
+  font-size: 16px;
+  font-family:  'Raleway', sans-serif;
+  opacity: 0;
+
+}
+.leftBlock{
+  background: rgb(210, 210, 209);
+  height: 30vh;
+  width: 29vw;
+}
+.rightBlock{
+  background: rgb(210, 210, 209);
+  height: 30vh;
+  width: 29vw;
+  margin-left: 2vw;
+  }
+.test{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2vh;
+  height: 35vh;
+  width: 100vw;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 30vh;
+}
+.username{
+  margin-left: 40vw;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10vh;
+}
+.password{
+  margin-left: 40vw;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.add{
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 5%;
+
+}
+.addClient{
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.clientName{
+  padding-bottom: 10px;
+}
+.charge{
+  padding-bottom: 10px;
+}
+.info{
+  padding-bottom: 10px;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+@keyframes fadeIn {
+  0%{opacity: 0}
+  100%{opacity: 1}
+}
